@@ -1,18 +1,20 @@
 <?php
-    $result = explode('/', $_SERVER['REQUEST_URI']);
-    switch($result[1]) {
-        case '':
-            include "page1.html";
-            break;
-        case '2':
-            include "page2.html";
-            break;
-    } ?>
+    // $result = explode('/', $_SERVER['REQUEST_URI']);
+    // switch($result[1]) {
+    //     case '':
+    //         include "page1.html";
+    //         break;
+    //     case '2':
+    //         include "page2.html";
+    //         break;
+    // } 
+?>
+<!DOCTYPE html>
 <html>
   <head>
   <style type="text/css">
   <?php
-  include 'C:\wamp64\www\AIrewright.ru\css\style.css';
+  include 'css/style.css';
   ?>
   </style>
     <title>Article Rewriter</title>
